@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to BizPro</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="team-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>   
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="Services.html">SERVICES</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li class="active"><a href="Team.html">TEAM</a></li>
+            <li><a href="Skill.html">SKILL</a></li>
+            <li><a href="clients.html">CLIENTS</a></li>
+            <li><a href="pricing.html">PRICING</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></ali>
+        </ul>
+       
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    
+    </section>
+    
+    <div class="container">
+    <h1 class="heading">Meet Our Team</h1>
+    <p>Our team of experts build and strengthen your online presence while you focus on growing your business.</p>
+    <div class="profiles">
+       <div class="profile">
+         <img src="./images/team1.jpg" class="profile-img">
+
+         <h3 class="user-name">Jodi L.GLAS</h3>
+         <h5>Media Partner</h5>
+         <p>She has been working from 5 years.A dynamic, forward-thinking leader who contributes to a company's ongoing growth, given extensive experience in talent and workforce development.</p>
+         </div>
+
+         <div class="profile">
+          <img src="./images/team2.jpg" class="profile-img">
+          <h3 class="user-name">Chris Lahey</h3>
+          <h5>Web Development</h5>
+          <p>Chris lahey has been working IT and software industry for over 7 years.He received his degree in Computer science from the University of Florida.</p>
+        </div>
+
+
+          <div class="profile">
+            <img src="./images/team3.jpg" class="profile-img">
+            <h3 class="user-name">Jacjon</h3>
+            <h5>Graphic Design</h5>
+            <p>He is a professional expert in graphic design. He has been working as a graphic designer for more than 09 years  and also completed my graduation in graphic design with a good result.</p>
+          </div>
+
+      </div>
+    
+   </div>
+  
+  
+    <!-------------Javascript for Toggle Menu------->
+  
+ <script>
+      var navLinks = document.getElementById("navLinks");
+      
+      function showMenu() {
+            navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+
+ </script>
+
+<footer>
+  <div class="center">
+      Copyright &copy; www.bizpro.com. All rights reserved!
+  </div>
+</footer>
+
+
+
+</body>
+</html>

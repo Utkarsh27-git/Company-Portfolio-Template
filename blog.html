@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to BizPro</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+</head>
+
+<body>
+  <section class="blog-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>   
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="Services.html">SERVICES</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="Team.html">TEAM</a></li>
+          <li><a href="Skill.html">SKILL</a></li>
+          <li><a href="clients.html">CLIENTS</a></li>
+          <li><a href="pricing.html">PRICING</a></li>
+          <li class="active"><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></ali>
+        </ul>
+
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+  </section>
+
+  <section class="latest-news-area" id="latest">
+    <div class="container-blog">
+      
+        <div class="section_title">
+
+          <h1>OUR LATEST BLOG</h1>
+          <div class="border-client"></div>
+          <h2>Our blog is the best blogging platform with flexibility and advanced features. It is easy to modify and
+            provides many designs. A better blog theme gives your website different visitors, also a structured blog
+            theme will helps to increase the website rank on search engines.</h2>
+         </div>
+      <br><br>
+
+      <div class="row">
+
+        <div class="blog-box">
+          <div class="news-img">
+            <img src="./images/blog1.jpg" class="img-responsive">
+            <div class="date">
+              <span>20</span>
+              <span>April</span>
+            </div>
+          </div>
+          <div class="news-content">
+            
+            
+            
+            
+            
+            <p>BizPro is a management consulting platform focused on bringing the best expertise for solving
+              business problems.</p>
+            <br>
+            <a href="" class="Read">Read More</a><br><br>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-whatsapp"></i>
+          </div>
+        </div>
+
+
+        <div class="blog-box">
+          <div class="news-img">
+            <img src="./images/blog2.jpg" class="img-responsive">
+            <div class="date">
+              <span>23</span>
+              <span>April</span>
+            </div>
+          </div>
+          <div class="news-content">
+            <p>With the recent developments, work from home seems to be the new trend gearing up to take the
+              market by a storm.</p>
+            <br>
+            <a href="" class="Read">Read More</a><br><br>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-whatsapp"></i>
+          </div>
+        </div>
+
+
+        <div class="blog-box">
+          <div class="news-img">
+            <img src="./images/blog3.jpg" class="img-responsive">
+            <div class="date">
+              <span>26</span>
+              <span>April</span>
+            </div>
+          </div>
+          <div class="news-content">
+            <p>BizProWorld is a B2B platform of business consultants that partners with its clients to solve their
+              critical business challenges.</p>
+            <br>
+            <a href="" class="Read">Read More</a><br><br>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-whatsapp"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-------------Javascript for Toggle Menu------->
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+  <footer>
+    <div class="center">
+      Copyright &copy; www.bizpro.com. All rights reserved!
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>

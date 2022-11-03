@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to BizPro</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="skill-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>   
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="Services.html">SERVICES</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="Team.html">TEAM</a></li>
+            <li class="active"><a href="Skill.html">SKILL</a></li>
+            <li><a href="clients.html">CLIENTS</a></li>
+            <li><a href="pricing.html">PRICING</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></ali>
+        </ul>
+       
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    
+    </section>
+    
+    <div class="skills">
+      <h1>SKILLS</h1>
+      <div class="border-client"></div>
+    </div>
+     <div class="skills-bar">
+      <p>WEB DEVELOPMENT</p>
+      <div class="container-skills">
+        <div class="skills wd">90%</div>
+      </div>
+      
+      <p>PHOTOGRAPHY</p>
+      <div class="container-skills">
+        <div class="skills pg">80%</div>
+      </div>
+      
+      <p>CREATIVE DESIGN</p>
+      <div class="container-skills">
+        <div class="skills cd">65%</div>
+      </div>
+      
+      <p>ONLINE MARKETING</p>
+      <div class="container-skills">
+        <div class="skills om">60%</div>
+      </div>
+      
+      <p>DIGITAL MEDIA</p>
+      <div class="container-skills">
+        <div class="skills dm">55%</div>
+      </div>
+
+        
+
+   
+
+    </div>
+
+
+
+
+
+    <!-------------Javascript for Toggle Menu------->
+  
+ <script>
+      var navLinks = document.getElementById("navLinks");
+      
+      function showMenu() {
+            navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+
+ </script>
+<br>
+<footer>
+  <div class="center">
+      Copyright &copy; www.bizpro.com. All rights reserved!
+  </div>
+</footer>
+
+
+
+</body>
+</html>
